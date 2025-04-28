@@ -1,12 +1,9 @@
 package com.canaworohewe.security;
 
-package com.delivery.service;
-
-import com.delivery.entity.Product;
-import com.delivery.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
+import com.canaworohewe.model.Product;
+import com.canaworohewe.repository.ProductRepository;
 import java.util.List;
 import java.util.Optional;
 

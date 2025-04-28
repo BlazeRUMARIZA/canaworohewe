@@ -2,6 +2,8 @@ package com.canaworohewe.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import com.canaworohewe.model.Product;
+import com.canaworohewe.service.ProductService;
 
 import java.util.List;
 
